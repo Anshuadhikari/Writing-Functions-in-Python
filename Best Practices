@@ -1,5 +1,6 @@
 # Best Practices 
 
+##Crafting Docstrings
 # Add a docstring to count_letter()
 def count_letter(content, letter):
   """Count the number of times `letter` appears in `content`"""
@@ -36,6 +37,8 @@ def count_letter(content, letter):
     
     
   return len([char for char in content if char == letter])
+  
+  ##Retrieving docstrings
   
   def count_letter(content, letter):
   """Count the number of times `letter` appears in `content`.
